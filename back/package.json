@@ -1,0 +1,15 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "Back de json server para ser consumido en React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json":"json-server --port 5174 --watch usuarios.json"
+  },
+  "author": "Jaime Zapata Valencia",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.23"
+  }
+}
